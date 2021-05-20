@@ -10,15 +10,10 @@
 background: linear-gradient(180deg, rgba(115,193,235,1) 35%, rgb(255, 255, 255) 35%);
 padding: 50px 0px 0px 50px;
 border-style: solid;
-c
 }
 .imp{
     height: 75px;
     width: 75Px;
-}
-
-.name{
-
 }
 
 .over-loc{
@@ -27,18 +22,21 @@ c
 }
 
 .loc{
-    height: 15;
-    width: 15px;
+    height: 15px;
+    width: 10px;
 
 }
 
 .city{
-margin: 5px;
+/* margin-left: 25%; */
+/* display: flex; */
+/* justify-content: space-between; */
 }
 
 .ov_edit{
     display: flex;
     align-items: flex-end;
+    align-items: center;
 }
 
 .gear{
@@ -50,5 +48,8 @@ margin: 5px;
     margin: 5px;
     color: blue;
     text-decoration: underline;
-
+}
+.me{
+    display: flex;
+    flex-direction: column;
 }
