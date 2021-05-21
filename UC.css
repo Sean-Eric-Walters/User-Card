@@ -41,11 +41,6 @@
     width: 15px;
 }
 
-.edit{
-    margin: 5px;
-    color: blue;
-    text-decoration: underline;
-}
 .me{
     display: flex;
     flex-direction: column;
